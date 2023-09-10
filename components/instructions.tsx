@@ -17,8 +17,8 @@ export const Instructions = ({ openModal, setOpenModal }: InstructionsProps) => 
             <Image className="nbaimg"
                 src="/NBA.png" alt="NBA Logo"
                 width={26.25} height={60}/>
-            <h1 className="instrheader1">NBANewsletter</h1>
-            <p className="instrheader1">Your personal NBA betting assistant</p>
+            <h1 className="instrheader1">NBA News #🏀🤖📰</h1>
+            <p className="instrheader1">Your personal NBA AI assistant</p>
             <h2 className="instrheader2">Instructions</h2>
             <div className="instrstep">
                 <div className="stepinner">

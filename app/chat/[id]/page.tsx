@@ -25,7 +25,7 @@ function ChatPage({params: { id }}: Props) {
                 <ChatInput chatId={id}/>
                 <div className="chatpagediv13">
                     <span>
-                        NBANewsletter is not liable for any bets you place as a result of using our application
+                        NBA News
                     </span>
                 </div>
             </div>

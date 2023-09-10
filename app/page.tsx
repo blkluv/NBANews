@@ -12,7 +12,7 @@ export default function Home() {
                 <Image className="nbaimg"
                 src="/NBA.png" alt="NBA Logo"
                 width={35} height={80}/>
-                <h1 className="h1">NBANewsletter</h1>
+                <h1 className="h1">NBA News #🏀🤖📰</h1>
                 <div className="div6">
                   <div className="div7">
                     <h2 className="h2">
