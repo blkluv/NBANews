@@ -41,7 +41,7 @@ function ChatInput({ chatId }: Props) {
             collection(db, 'users', session?.user?.email!, 'chats', chatId, 'messages'),
             message
         )
-        const notification = toast.loading('NBANewsletter is thinking...')
+        const notification = toast.loading('NBAI is thinking...')
         await fetch('../api/askquestion', {
             method: 'POST',
             headers: {
@@ -54,7 +54,7 @@ function ChatInput({ chatId }: Props) {
                 session,
             })
         }).then(() => {
-            toast.success('NBANewsletter has responded!', {
+            toast.success('NBAI has responded!', {
                 id: notification,
             })
         })

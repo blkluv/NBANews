@@ -21,7 +21,7 @@ const query = async (prompt: string, chatId: string, model: string, session: Ses
     // Add previous messages to the array
     previousMessagesSnapshot.forEach((doc) => {
         const messageData = doc.data();
-        if (messageData.text == 'NBANewsletter') {
+        if (messageData.text == 'NBAI') {
             messages.push(`you responded : ${messageData.text}`);
         } else {
             messages.push(`user said : ${messageData.text}`);
@@ -41,7 +41,7 @@ const query = async (prompt: string, chatId: string, model: string, session: Ses
     }).then(res => res.data.choices[0].text)
     .catch(
         (err) => 
-            `NBANewsletter was unable to find an answer for that! (Error: ${err.message})`
+            `NBAI was unable to find an answer for that! (Error: ${err.message})`
     )
     return res
 }

@@ -6,7 +6,7 @@ type Props = {
 }
 
 function Message({ message }: Props) {
-    const isNBA = message.user.name === "NBANewsletter"
+    const isNBA = message.user.name === "NBAI"
     const cleanedText = message.text.replace(/^\W+/, '')
     return (
         <div className={`messageouter1 ${isNBA && "nba-bg"}`}>

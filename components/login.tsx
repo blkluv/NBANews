@@ -10,7 +10,7 @@ function Login() {
             src="/NBA.png" alt="NBA Logo"
             width={70} height={160}/>
             <button onClick={() => signIn('google')}
-            className="loginbtn">Sign In to use NBANewsletter</button>
+            className="loginbtn">Sign In to use NBAI</button>
         </div>
     )
 }
